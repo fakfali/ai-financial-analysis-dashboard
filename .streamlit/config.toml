@@ -1,6 +1,22 @@
 [theme]
-primaryColor="#00A6A6"
-backgroundColor="#F7F9FC"
-secondaryBackgroundColor="#EAF0F6"
-textColor="#16324F"
-font="sans serif"
+base = "light"
+primaryColor = "#B4871F"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F1E8"
+textColor = "#171512"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+baseRadius = "0.75rem"
+buttonRadius = "0.5rem"
+showWidgetBorder = true
+showSidebarBorder = true
+metricValueFontSize = "2rem"
+metricValueFontWeight = 600
+chartCategoricalColors = ["#B4871F", "#171512", "#16835D", "#B42318", "#6B7280"]
+
+[theme.sidebar]
+backgroundColor = "#F5F1E8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#171512"
+primaryColor = "#B4871F"
+borderColor = "#D8C9A6"
